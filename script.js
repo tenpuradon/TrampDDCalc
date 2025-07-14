@@ -249,6 +249,7 @@
                         target.blur();
                     } else {
                         handleEnter();
+                        target.blur();
                     }
                 }
                 /* else if (char === '<') {

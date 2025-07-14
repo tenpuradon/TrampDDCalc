@@ -18,7 +18,7 @@ body {
   flex: 1;
   padding: 10px;
   box-sizing: border-box;
-  height: 300px;
+  height: 250px;
   overflow: hidden;
 }
 
@@ -61,6 +61,7 @@ body {
 }
 
 .bottom-section {
+  flex: 1;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 70px);

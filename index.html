@@ -6,33 +6,35 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <div class="top-section">
-      <div class="top-left" id="outputBox"></div>
-      <div class="top-middle" id="inputBox"></div>
-      <div class="top-right">
-        <label>
-          <input type="radio" name="gender" id="genderM" checked> M
-        </label>
-        <label>
-          <input type="radio" name="gender" id="genderF"> F
-        </label>
-        <br><br>
-        <label>
-          <input type="checkbox" id="autoDetect"> Auto Detect F/B
-        </label>
-        <div class="sum-display">Sum: <span id="sumDisplay">0.00</span></div>
-        <div class="sum-display">Triple Bonus: <span id="bonusDisplay">0.00</span></div>
-        <!--<div class="sum-display" id="debugInfo" style="color: darkred;">
-          Debug: TripleCount = 0, TripleBonus = 0.00
-        </div>-->
-        <div style="margin-top: 15px;">
-          <button id="clearBtn">Clear</button>
-          <button id="clearAllBtn">Clear All</button>
+  <div class="wrapper">
+    <div class="container">
+      <div class="top-section">
+        <div class="top-left" id="outputBox"></div>
+        <div class="top-middle" id="inputBox"></div>
+        <div class="top-right">
+          <label>
+            <input type="radio" name="gender" id="genderM" checked> M
+          </label>
+          <label>
+            <input type="radio" name="gender" id="genderF"> F
+          </label>
+          <br><br>
+          <label>
+            <input type="checkbox" id="autoDetect"> Auto Detect F/B
+          </label>
+          <div class="sum-display">Sum: <span id="sumDisplay">0.00</span></div>
+          <div class="sum-display">Triple Bonus: <span id="bonusDisplay">0.00</span></div>
+          <!--<div class="sum-display" id="debugInfo" style="color: darkred;">
+            Debug: TripleCount = 0, TripleBonus = 0.00
+          </div>-->
+          <div style="margin-top: 15px;">
+            <button id="clearBtn">Clear</button>
+            <button id="clearAllBtn">Clear All</button>
+         </div>
         </div>
       </div>
+      <div class="bottom-section" id="buttonGrid"></div>
     </div>
-    <div class="bottom-section" id="buttonGrid"></div>
   </div>
   <script src="script.js"></script>
 </body>

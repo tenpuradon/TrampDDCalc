@@ -13,5 +13,5 @@ Clear All will delete the entire log
 Skill direction must be specified by B or F, otherwise Back flipping bonus will not be applied  
 Auto Detect F/B auto applies Back Flip Bonus for all skills not ending in half turn
 
-I forgot to add functionality to delete a individual skill from log. late. probably
+I forgot to add functionality to delete a individual skill from log. later. probably
 

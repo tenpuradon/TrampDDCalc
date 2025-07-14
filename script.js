@@ -258,7 +258,7 @@
                     target.value += char;
                 }
 
-                target.focus();
+                /*target.focus();*/
             });
         });
 

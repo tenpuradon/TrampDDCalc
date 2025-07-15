@@ -46,8 +46,6 @@ body {
 
 .input-line, .output-line {
   margin: 2px 0;
-  width: 100%;
-  box-sizing: border-box;
 }
 
 .edit-line {

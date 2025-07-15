@@ -46,6 +46,8 @@ body {
 
 .input-line, .output-line {
   margin: 2px 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .edit-line {
@@ -86,7 +88,7 @@ hr {
   max-width: 500px;
   margin: 0 auto;
   width: 100%;
-  height: 100hv;
+  height: 100vh;
   display: flex;
   flex-direction: column;
 }
